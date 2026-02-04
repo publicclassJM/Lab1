@@ -18,14 +18,14 @@ public class lab1 {
     }
 
     public void displayBalance(Account acc) {
-        System.out.println("Current Balance: " + acc.getBalance());
+        System.out.println("Current Balance: " + acc.getBalance() + " Pesos");
     }
 
     public void displayDetails(Account acc) {
         System.out.println("\n***** ACCOUNT DETAILS *****");
         System.out.println("Name: " + acc.fullName());
         System.out.println("Account No: " + acc.getAccountNo());
-        System.out.println("Balance: " + acc.getBalance());
+        System.out.println("Balance: " + acc.getBalance() + " Pesos");
     }
 
     public static void main(String[] args) {
@@ -51,3 +51,4 @@ public class lab1 {
         atm.displayDetails(myAcc);
     }
 }
+
